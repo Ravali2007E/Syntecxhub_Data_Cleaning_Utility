@@ -1,0 +1,18 @@
+Customer ID,  Full Name ,Email Address,  Date of Birth,  Purchase Amount ,Purchase Date,  City  ,Country
+C001,Alice Johnson,alice@example.com,1990-05-21,1200.50,2024-01-15,New York,USA
+C002,Bob Smith,bob@example.com,15/03/1985,$850.00,2024-02-20,London,UK
+C003,Carol White,,1992-11-30,300.75,2024-03-05,Sydney,Australia
+C004,David Brown,david@example.com,1988-07-14,,2024-03-10,Toronto,Canada
+C001,Alice Johnson,alice@example.com,1990-05-21,1200.50,2024-01-15,New York,USA
+C005,Eve Davis,eve@example.com,invalid_date,950.00,2024-04-01,Berlin,Germany
+C006,,frank@example.com,1995-02-28,1500.00,2024-04-15,Paris,France
+C007,Grace Lee,grace@example.com,1993-09-10,2200.00,,Tokyo,Japan
+C008,Henry Wilson,henry@example.com,1987-12-03,750.25,2024-05-20,Mumbai,India
+C009,Isla Martinez,isla@example.com,1991-06-17,1100.00,2024-06-01,São Paulo,Brazil
+C010,Jack Taylor,jack@example.com,1989-04-22,$600,2024-06-15,Cape Town,South Africa
+C010,Jack Taylor,jack@example.com,1989-04-22,$600,2024-06-15,Cape Town,South Africa
+C011,Karen Anderson,,2001-08-09,450.00,2024-07-04,Seoul,South Korea
+C012,Leo Thomas,leo@example.com,1996-01-25,,2024-07-20,Amsterdam,Netherlands
+C013,Mia Jackson,mia@example.com,1994-03-13,875.50,bad-date,Chicago,USA
+C014,Noah Harris,noah@example.com,,1350.00,2024-08-10,Dubai,UAE
+C015,Olivia Clark,olivia@example.com,1998-10-31,620.00,2024-08-25,Singapore,Singapore

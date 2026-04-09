@@ -1,0 +1,52 @@
+[
+  {
+    "step": "start",
+    "file": "sample_data\\dirty_customers.csv",
+    "timestamp": "2026-04-09 23:12:43.368147"
+  },
+  {
+    "step": "load",
+    "shape": [
+      17,
+      8
+    ]
+  },
+  {
+    "step": "standardize_columns",
+    "renamed": {
+      "Customer ID": "customer_id",
+      "  Full Name ": "full_name",
+      "Email Address": "email_address",
+      "  Date of Birth": "date_of_birth",
+      "  Purchase Amount ": "purchase_amount",
+      "Purchase Date": "purchase_date",
+      "  City  ": "city",
+      "Country": "country"
+    }
+  },
+  {
+    "step": "remove_duplicates",
+    "rows_removed": 2
+  },
+  {
+    "step": "fix_dtypes",
+    "columns_converted": {
+      "date_of_birth": "datetime64",
+      "purchase_amount": "numeric",
+      "purchase_date": "datetime64"
+    }
+  },
+  {
+    "step": "handle_missing",
+    "strategy": "fill",
+    "missing_before": "10",
+    "missing_after": 0,
+    "per_column": {
+      "full_name": 1,
+      "email_address": 2,
+      "date_of_birth": 3,
+      "purchase_amount": 2,
+      "purchase_date": 2
+    }
+  }
+]
